@@ -1,27 +1,33 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <main>
+    <example-directivas />
+  </main>
 </template>
-
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import HelloWorld from './components/HelloWorld.vue';
+import { defineComponent } from 'vue';
+import ExampleDirectivas from './components/ExampleDirectivas.vue';
 
-@Options({
+export default defineComponent({
+  name: 'App',
   components: {
-    HelloWorld,
-  },
-})
-export default class App extends Vue {}
-</script>
+    ExampleDirectivas,
+  }
+});
 
-<style lang="scss">
+</script>
+<style lang="scss" scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
+  }
+  main {
+  display: flex;
+  padding: auto;
+  flex-direction: column;
+  /* center the content */
+  justify-content: center;
+  }
 </style>

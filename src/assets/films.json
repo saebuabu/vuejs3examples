@@ -1,0 +1,30 @@
+[
+    {
+        "title": "The Shawshank Redemption",
+        "director": "Frank Darabont",
+        "year": 1994,
+        "rating": 9.3,
+        "age": 0
+    },
+    {
+        "title": "The Godfather",
+        "director": "Francis Ford Coppola",
+        "year": 1972,
+        "rating": 9.2,
+        "age": 13
+    },
+    {
+        "title": "The Dark Knight",
+        "director": "Christopher Nolan",
+        "year": 2008,
+        "rating": 9.0,
+        "age": 13
+    },
+    {
+        "title": "Pulp Fiction",
+        "director": "Quentin Tarantino",
+        "year": 1994,
+        "rating": 8.9,
+        "age": 17
+    }
+]
